@@ -1,27 +1,14 @@
 # 24_Points
-24点游戏
 
+Language: C++
 
-编写语言：C++。
+Now support: 
+- Give 4~20 solvable cards
+- Users gain score by inputting correct answers
+- Provide hints if necessary
 
+Main parts:
+- Generating a solvable question and an answer (DFS)
+- Calculate the correctness of users' answers (Calculate infix expressions, by stack)
 
-显示语言：English
-
-
-目前支持：
-
-模式1：解24点
-
-    - 输入4张牌，给出所有可行解法（或无解）
-  
-模式2：进行24点
-
-    - 随即给出4张有解的牌
-  
-    - 输入任意一种可行解
-  
-    - 自动判断是否正确
-  
-    - 给出答案
-  
-    - 计算得分
+This version was first written in 2019 but updated in 2020 as my final assignment for AP Computer Science Principal. There were many defects (goto, cliche, ...) that should be improved. 
